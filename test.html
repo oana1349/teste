@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST ING</title>
+    <style>
+.container {
+  width: 1190px;
+}
+
+.rectangle {
+  background-color: #9898C3;
+  width: 1190px;
+  height: 22px;  
+  margin-bottom: 15px;  
+}
+
+.informatii-cerere {
+  color: #FFFFFF;
+  font-family: INGMe;
+  font-size: 12px;
+  line-height: 14px;
+  width: 89px;
+  text-align: left;
+  padding-top: 4px;
+  padding-right: 1066px;
+  padding-bottom: 3px;
+  padding-left: 35px;
+}
+
+.flex-top { 
+  display: flex;  
+  margin-right: 904px;
+}
+
+
+.flex-top-text {
+  font-family: INGMe;
+  font-size: 8px;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 0px;
+  width: 245px;  
+  height: 10px;
+  text-align: left;
+  padding-top: 2px;
+} 
+
+.flex-top-text-bold {
+  font-family: INGMe;    
+  font-weight: bold;
+  font-size: 8px;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 0px;
+  width: 245px;
+  height: 10px;  
+  text-align: left;
+  padding-top: 2px;
+} 
+
+.flex-top-text-bold2 {
+  font-family: INGMe;    
+  font-weight: bold;
+  font-size: 8px;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 0px;
+  width: 490px;
+  height: 10px;  
+  text-align: left;
+  padding-top: 2px;
+} 
+ 
+
+.separator-top {
+  background-color: #D9D9D9;
+  width: 1142px;
+  height: 1px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+.separator-2 {
+  background-color: #D9D9D9;
+  width: 1142px;
+  height: 1px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.title-top {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 327px;
+  text-align: left;  
+  margin-top: 12px;
+  margin-right: 839px;
+  margin-bottom: 10px;
+  margin-left: 24px;
+}
+
+.title-footer {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 327px;
+  text-align: left;    
+  margin-top: 26px;
+  margin-right: 839px;
+  margin-bottom: 10px;
+  margin-left: 24px;
+}
+.title-footer2 {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 327px;
+  text-align: left;    
+  margin-top: 16px;
+  margin-right: 839px;
+  margin-bottom: 10px;
+  margin-left: 24px;
+}
+
+.rectangle-copy-19 {
+  background-color: #F0F0F0;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 327px;
+  height: 40px;
+  margin-right: 839px;
+  margin-left: 24px;
+  margin-bottom: 34px;
+}
+
+.borrowers-container {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.09);
+  width: 1142px;
+  height: 308px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+.limit-container {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.09);
+  width: 1142px;
+  height: 393px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+.tlo-container {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.09);
+  width: 1142px;
+  height: 443px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+.borrowers {
+  color: #333333;
+  font-family: INGMe;  
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  margin-right: 968px;
+  margin-left: 62px;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+
+.limit-structure {
+  color: #333333;
+  font-family: INGMe;  
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  margin-right: 914px;
+  margin-left: 62px;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+
+.total-legal-one-obli {
+  color: #333333;
+  font-family: INGMe;  
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  width: 378px;
+  text-align: left;
+  margin-right: 702px;
+  margin-left: 62px;
+  margin-bottom: 4px;
+  margin-top: 24px;
+}
+
+.exchange-subtitle {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 306px;
+  text-align: left;
+  margin-right: 774px;
+  margin-left: 62px;
+  margin-bottom: 32px;
+  margin-top: 4px;
+}
+
+.btn-copy-104 {
+  background-color: #FF6200;
+  border-radius: 8px;
+  width: 187px;
+  height: 44px;
+  margin-right: 391px;
+  margin-bottom: 38px;
+  margin-left: 21px;
+  margin-top: 32px;
+}
+
+.button-label {
+  color: #FFFFFF;
+  font-family: INGMe;
+  font-size: 19px;
+  line-height: 28px;
+  width: 155px;
+  text-align: center;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+
+.separator-color {
+    height: 6px;
+    background: #F0F0F0;
+    background: linear-gradient(to right,  #FF6200 80%,#F0F0F0 20%);
+    width: 1094px;
+    border-radius: 5px;
+    margin-right: 27px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-top: 38px;
+}
+
+
+.red {
+color: #D70000;
+}
+
+
+.form-footer1 {
+  background-color: #FFFFFF;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 327px;
+  height: 40px;    
+  margin-right: 839px;
+  margin-left: 24px;
+}  
+
+.form-footer1-content {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 16px;
+  line-height: 19px;
+  width: 286px;
+  text-align: left;
+}
+
+.flex-container1 {
+  display: flex;  
+  width: 1094px;
+  margin-right: 101px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+
+.id-edited {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 35px;
+  text-align: center;
+  margin-right: 32px;
+}
+.organisations {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 200px;
+  text-align: center;
+  margin-right: 32px;
+}
+.segment {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.ing-rating {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 143px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.grid-id {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 84px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.caen-code {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  margin-right: 32px;
+}
+
+.description-caen-cod {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 190px;
+  text-align: center;
+}
+
+.flex-container2 {
+  display: flex;
+  width: 1399px;
+  margin-right: 101px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+
+.facility-type {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 144px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.c-u {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 144px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.currency {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 144px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.limit {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 150px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.currency {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 144px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.limit {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 150px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.outstanding {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 100px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.borrowers-text {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 100px;
+  text-align: center;
+  margin-right: 32px;
+}
+
+.hr-limit {
+  background-color: #D9D9D9;
+  width: 1399px;
+  height: 1px;
+  margin-left: 24px;
+}
+
+.hr-borrowers {
+  background-color: #D9D9D9;
+  width: 1094px;
+  height: 1px;
+  margin-left: 24px;
+}
+
+.flex-container3 {
+  display: flex;  
+  width: 1094px;
+  margin-right: 81px;
+  margin-bottom: 8px;
+  margin-left: 353px;
+}
+
+.exchange-existing {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 326px;
+  text-align: center;
+  border-bottom: 1px solid #D9D9D9;
+  margin-right: 32px
+}
+
+.flex-container4 {
+  display: flex;  
+  width: 1094px;
+  margin-right: 101px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+
+.text1 {
+  background-color: #F0F0F0;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 35px;
+  height: 40px;
+  margin-right: 32px
+}
+
+.text2 {
+  background-color: #F0F0F0;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 200px;
+  height: 40px;
+  margin-right: 32px
+}
+
+.text3 {
+  background-color: #F0F0F0;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 84px;
+  height: 40px;
+  margin-right: 32px
+}
+
+.rectangle-copy {
+  background-color: #FFFFFF;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 143px;
+  height: 40px;
+  margin-right: 32px
+}
+
+.text4 {
+  background-color: #F0F0F0;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 89px;
+  height: 40px;
+  margin-right: 32px
+}
+
+.text5 {
+  background-color: #F0F0F0;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 191px;
+  height: 40px;
+  margin-right: 32px
+}
+
+.flex-container5 {
+  display: flex;
+  width: 1399px;
+  margin-right: 101px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+
+.text6 {
+  background-color: #FFFFFF;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 150px;
+  height: 40px;  
+  margin-right: 32px
+}
+
+.text7 {
+  background-color: #F0F0F0;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 100px;
+  height: 40px;  
+  margin-right: 32px
+}
+
+.flex-container6 {
+  display: flex;  
+  width: 1095px;
+  margin-right: 101px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+
+.exchange-category-1 {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 264px;
+  text-align: left;  
+  margin-right: 53px
+}
+
+.exchange-category-3 {
+  color: #333333;
+  font-family: INGMe;
+  font-size: 18px;
+  line-height: 22px;
+  width: 32px;
+  text-align: center;  
+  margin-right: 53px
+}
+
+.text8 {
+  background-color: #F0F0F0;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  width: 126px;
+  height: 40px;  
+  margin-right: 53px
+}
+
+.flex-container7 {
+  display: flex;  
+  width: 1094px;
+  margin-right: 24px;
+  margin-bottom: 29px;  
+  margin-left: 304px;
+}
+
+.exchange-existing1 {
+  color: #333333;
+  font-family: INGMe;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  width: 74px;
+  text-align: center;  
+  margin-right: 41px;
+}
+
+.exchange-existing2 {
+  color: #333333;
+  font-family: INGMe;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  width: 126px;
+  text-align: center;
+  margin-right: 41px;
+}
+
+.flex-container8 {
+  display: flex;  
+  width: 1094px;
+  margin-right: 24px;
+  margin-bottom: 8px;
+  margin-left: 312px;
+}
+
+.exchange-existing-bold {
+  color: #333333;
+  font-family: INGMe;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  width: 252px;
+  text-align: center;
+  border-bottom: 1px solid #D9D9D9;
+  margin-right: 25px
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="rectangle"><h2 class="informatii-cerere">Informatii cerere</h2></div>
+
+    <div class="flex-top">
+        <div class="flex-top-text-bold">Application ID:</div>
+        <div class="flex-top-text"></div>
+    </div>
+    <div class="flex-top">
+        <div class="flex-top-text-bold">Application date:</div>
+        <div class="flex-top-text">19/10/2020</div>
+    </div>
+    <div class="flex-top">
+        <div class="flex-top-text-bold">Aplication purpose:</div>
+        <div class="flex-top-text">Initial Credit Application</div>
+    </div>
+    <div class="flex-top">
+        <div class="flex-top-text-bold">Prepared by:</div>
+        <div class="flex-top-text">usertest_r57</div>
+    </div>
+    <div class="flex-top">
+        <div class="flex-top-text-bold">Branch:</div>
+        <div class="flex-top-text">5002</div>
+    </div>
+    <div class="flex-top">
+        <div class="flex-top-text-bold">Ultimate approval authority</div>
+        <div class="flex-top-text"></div>
+    </div>
+    <div class="flex-top">
+        <div class="flex-top-text-bold">First borrower:</div>
+        <div class="flex-top-text">;</div>
+    </div>
+    <div class="flex-top">
+        <div class="flex-top-text-bold">Application status:</div>
+        <div class="flex-top-text">Incomplete</div>
+    </div>
+    <div class="flex-top">
+        <div class="flex-top-text-bold2">Guid: e150a14c-d363-4164-b218-dbcd5ad231aa</div>    
+    </div>
+    
+    <div class="separator-top"></div>
+<p class="title-top">Purpose of application</p>
+<form class="form">
+    <div class="form-input"> 
+           <label class="approval" for="approval"></label>
+            <select name="approval" id="approval" class="rectangle-copy-19">
+            <option value="v1">Initial Credit Application</option>
+            </select>
+    </div>
+<div class="separator-2"></div>
+<div class="borrowers-container"><h2 class="borrowers">Borrowers</h2>
+
+    <div class="flex-container1">
+        <div class="id-edited">ID</div>
+        <div class="organisations">Organisations</div>
+        <div class="segment">Segment</div>
+        <div class="ing-rating">ING Rating <span class="red">*</span></div>
+        <div class="grid-id">Grid ID</div>
+        <div class="caen-code">CAEN Code</div>
+        <div class="description-caen-cod">Description CAEN Code</div>  
+      </div>
+<div class="hr-borrowers"></div>
+<div class="flex-container4">
+    <div class="text1">A</div>
+    <div class="text2">Auto1945729666</div>
+    <div class="text3">67</div>
+    <div class="rectangle-copy">—Selectati—</div>
+    <div class="text3">1234</div>
+    <div class="text4">6602</div>
+    <div class="text5">Activitati ale caselor …</div>  
+    
+  </div>
+  <div class="hr-borrowers"></div>
+    <div class="btn-copy-104"><p class="button-label">Add Borrower</p></div>
+</div>
+
+
+
+<div class="limit-container"><h2 class="limit-structure">Limit Structure</h2>
+
+    <div class="flex-container3">
+        <div class="exchange-existing">Existing</div>
+        <div class="exchange-existing">Proposed</div>         
+      </div>
+
+    <div class="flex-container2">
+        <div class="facility-type">Facility Type <span class="red">*</span></div>
+        <div class="c-u">C/U <span class="red">*</span></div>
+        <div class="currency">Currency</div>
+        <div class="limit">Limit <span class="red">*</span></div>
+        <div class="currency">Currency <span class="red">*</span></div>
+        <div class="limit">Limit <span class="red">*</span></div>
+        <div class="outstanding">Outstanding</div>
+        <div class="borrowers-text">Borrowers</div>  
+      </div>
+      <div class="hr-limit"></div>
+      <div class="flex-container5">
+        <div class="rectangle-copy">—Selectati—</div>
+        <div class="rectangle-copy">—Selectati—</div>
+        <div class="rectangle-copy">—Selectati—</div>
+        <div class="text6"></div>
+        <div class="rectangle-copy">—Selectati—</div>
+        <div class="text6"></div>
+        <div class="text7">0.00</div>
+        <div class="rectangle-copy">—Selectati—</div>         
+      </div>
+      <div class="hr-limit"></div>
+
+    <div class="btn-copy-104"><p class="button-label">Add Limit</p></div>
+    <div class="separator-color"></div>
+</div>
+
+
+<div class="tlo-container">
+    <h2 class="total-legal-one-obli">Total Legal One Obligor: 0,00 EUR</h2>
+<p class="exchange-subtitle">All lending limits are converted to<br> EUR 1 EUR = 4,8695 RON</p>
+
+<div class="flex-container8">
+    <div class="exchange-existing-bold">Existing</div>
+    <div class="exchange-existing-bold">Proposed</div>
+    <div class="exchange-existing-bold">Outstanding</div>         
+  </div>
+
+<div class="flex-container7">
+    <div class="exchange-existing1">Currency</div>
+    <div class="exchange-existing2">Limit</div>
+    <div class="exchange-existing1">Currency</div> 
+    <div class="exchange-existing2">Limit</div>
+    <div class="exchange-existing1">Currency</div>
+    <div class="exchange-existing2">Limit</div>
+  </div>
+<div class="flex-container6">
+    <div class="exchange-category-1">Legal One Obligor local group</div>
+    <div class="exchange-category-3">EUR</div>
+    <div class="text8"></div>
+    <div class="exchange-category-3">EUR</div>
+    <div class="text8"></div>
+    <div class="exchange-category-3">EUR</div>
+    <div class="text8"></div>  
+  </div>
+  <div class="flex-container6">
+    <div class="exchange-category-1">Legal One Obligor external group</div>
+    <div class="exchange-category-3">EUR</div>
+    <div class="text8"></div>
+    <div class="exchange-category-3">EUR</div>
+    <div class="text8"></div>
+    <div class="exchange-category-3">EUR</div>
+    <div class="text8"></div>  
+  </div>
+  <div class="flex-container6">
+    <div class="exchange-category-1">Total Legal One Obligor</div>
+    <div class="exchange-category-3">EUR</div>
+    <div class="text8"></div>
+    <div class="exchange-category-3">EUR</div>
+    <div class="text8"></div>
+    <div class="exchange-category-3">EUR</div>
+    <div class="text8"></div>  
+  </div>
+
+
+</div>
+<div class="separator-2"></div>
+<p class="title-footer">Ultimate Approval Authority <span class="red">*</span></p>
+
+
+<form class="form">
+    <div class="form-input"> 
+           <label class="approval" for="approval"></label>
+            <select name="approval" id="approval" class="form-footer1">
+            <option value="v1">—Selectati—</option>
+            </select>
+    </div>
+
+
+
+
+
+
+
+
+<p class="title-footer2">Next Review Date <span class="red">*</span></p>
+
+<input type="date" id="review" class="form-footer1" name="next-review"
+       value="2020-10-21"
+       min="1900-01-01" max="2100-12-31">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
